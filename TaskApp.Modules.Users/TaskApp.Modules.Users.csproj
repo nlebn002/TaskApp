@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskApp.Application\TaskApp.Application.csproj" />
+    <ProjectReference Include="..\TaskApp.Domain\TaskApp.Domain.csproj" />
+    <ProjectReference Include="..\TaskApp.Contracts\TaskApp.Contracts.csproj" />
+    <ProjectReference Include="..\TaskApp.Infrastructure\TaskApp.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
