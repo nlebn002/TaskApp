@@ -8,7 +8,6 @@
   <ItemGroup>
     <ProjectReference Include="..\TaskApp.Domain\TaskApp.Domain.csproj" />
     <ProjectReference Include="..\TaskApp.Contracts\TaskApp.Contracts.csproj" />
-    <ProjectReference Include="..\TaskApp.Infrastructure\TaskApp.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
